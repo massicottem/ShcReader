@@ -11,6 +11,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29D8A07418BC4D4DAFF0B9FE /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C7D35AA8F3424A91165639 /* Nunito-SemiBold.ttf */; };
+		343FAE3D8AAA9CEF64D9CA75 /* libPods-ShcReader-ShcReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D86CFC958D899F33A8AC90 /* libPods-ShcReader-ShcReaderTests.a */; };
+		4E72BF4826CC409A007CAE86 /* NativeEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72BF4726CC409A007CAE86 /* NativeEventHandler.m */; };
+		4ED1593726D08300002D9D88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		4ED1593826D08300002D9D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4ED1593926D08300002D9D88 /* NativeEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72BF4726CC409A007CAE86 /* NativeEventHandler.m */; };
+		4ED1593B26D08300002D9D88 /* libPods-ShcReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E30EC7CD3D4E6F2493801B /* libPods-ShcReader.a */; };
+		4ED1593D26D08300002D9D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4ED1593E26D08300002D9D88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		4ED1593F26D08300002D9D88 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C7D35AA8F3424A91165639 /* Nunito-SemiBold.ttf */; };
+		7B9698B3E39EA1620D20A981 /* libPods-ShcReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E30EC7CD3D4E6F2493801B /* libPods-ShcReader.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +45,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ShcReader/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShcReader/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ShcReader/main.m; sourceTree = "<group>"; };
+		4E72BF4726CC409A007CAE86 /* NativeEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeEventHandler.m; sourceTree = "<group>"; };
+		4EC0F87826CC37F800AF44DD /* NativeEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeEventHandler.h; sourceTree = "<group>"; };
+		4ED1594626D08300002D9D88 /* ShcReader Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShcReader Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED1594726D08300002D9D88 /* ShcReader copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShcReader copy-Info.plist"; path = "/Users/mathieu/Documents/ShcReader/ios/ShcReader copy-Info.plist"; sourceTree = "<absolute>"; };
+		51CA70838E6315CA3983C8A1 /* Pods-ShcReader-ShcReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShcReader-ShcReaderTests.release.xcconfig"; path = "Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C7D35AA8F3424A91165639 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ShcReader/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B39C3EF3EF8B4CEFCD3E70 /* Pods-ShcReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShcReader.release.xcconfig"; path = "Target Support Files/Pods-ShcReader/Pods-ShcReader.release.xcconfig"; sourceTree = "<group>"; };
+		99573FB7CB27C2429826583E /* Pods-ShcReader-ShcReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShcReader-ShcReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E30EC7CD3D4E6F2493801B /* libPods-ShcReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShcReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D86CFC958D899F33A8AC90 /* libPods-ShcReader-ShcReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShcReader-ShcReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BBDD24935B4087F251F0F6 /* Pods-ShcReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShcReader.debug.xcconfig"; path = "Target Support Files/Pods-ShcReader/Pods-ShcReader.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343FAE3D8AAA9CEF64D9CA75 /* libPods-ShcReader-ShcReaderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +73,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9698B3E39EA1620D20A981 /* libPods-ShcReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED1593A26D08300002D9D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED1593B26D08300002D9D88 /* libPods-ShcReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +114,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4EC0F87826CC37F800AF44DD /* NativeEventHandler.h */,
+				4E72BF4726CC409A007CAE86 /* NativeEventHandler.m */,
 			);
 			name = ShcReader;
 			sourceTree = "<group>";
@@ -90,8 +124,21 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				99E30EC7CD3D4E6F2493801B /* libPods-ShcReader.a */,
+				B3D86CFC958D899F33A8AC90 /* libPods-ShcReader-ShcReaderTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452BA6325A02F39F7BE240B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBDD24935B4087F251F0F6 /* Pods-ShcReader.debug.xcconfig */,
+				84B39C3EF3EF8B4CEFCD3E70 /* Pods-ShcReader.release.xcconfig */,
+				99573FB7CB27C2429826583E /* Pods-ShcReader-ShcReaderTests.debug.xcconfig */,
+				51CA70838E6315CA3983C8A1 /* Pods-ShcReader-ShcReaderTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +156,9 @@
 				00E356EF1AD99517003FC87E /* ShcReaderTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CB633413A61541B4A9DB1DB4 /* Resources */,
+				452BA6325A02F39F7BE240B4 /* Pods */,
+				4ED1594726D08300002D9D88 /* ShcReader copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -120,8 +170,17 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* ShcReader.app */,
 				00E356EE1AD99517003FC87E /* ShcReaderTests.xctest */,
+				4ED1594626D08300002D9D88 /* ShcReader Release.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CB633413A61541B4A9DB1DB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66C7D35AA8F3424A91165639 /* Nunito-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ShcReaderTests" */;
 			buildPhases = (
+				FDDC19B46556B9D58637DB8C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				0A3203D24C43FC82BB670870 /* [CP] Embed Pods Frameworks */,
+				05098DDFE612CB16FCFE13D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +211,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShcReader" */;
 			buildPhases = (
+				AAC336DEE2A9C206A3616B23 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B6859C98966BDCDF186CFC9D /* [CP] Embed Pods Frameworks */,
+				D0F3F30D2F8C2DEB748E6951 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +227,28 @@
 			name = ShcReader;
 			productName = ShcReader;
 			productReference = 13B07F961A680F5B00A75B9A /* ShcReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ED1593326D08300002D9D88 /* ShcReader Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED1594326D08300002D9D88 /* Build configuration list for PBXNativeTarget "ShcReader Release" */;
+			buildPhases = (
+				4ED1593426D08300002D9D88 /* [CP] Check Pods Manifest.lock */,
+				4ED1593526D08300002D9D88 /* Start Packager */,
+				4ED1593626D08300002D9D88 /* Sources */,
+				4ED1593A26D08300002D9D88 /* Frameworks */,
+				4ED1593C26D08300002D9D88 /* Resources */,
+				4ED1594026D08300002D9D88 /* Bundle React Native code and images */,
+				4ED1594126D08300002D9D88 /* [CP] Embed Pods Frameworks */,
+				4ED1594226D08300002D9D88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShcReader Release";
+			productName = ShcReader;
+			productReference = 4ED1594626D08300002D9D88 /* ShcReader Release.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,6 +283,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* ShcReader */,
 				00E356ED1AD99517003FC87E /* ShcReaderTests */,
+				4ED1593326D08300002D9D88 /* ShcReader Release */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +302,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				29D8A07418BC4D4DAFF0B9FE /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED1593C26D08300002D9D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED1593D26D08300002D9D88 /* LaunchScreen.storyboard in Resources */,
+				4ED1593E26D08300002D9D88 /* Images.xcassets in Resources */,
+				4ED1593F26D08300002D9D88 /* Nunito-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +333,185 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		05098DDFE612CB16FCFE13D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A3203D24C43FC82BB670870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader-ShcReaderTests/Pods-ShcReader-ShcReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED1593426D08300002D9D88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShcReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED1593526D08300002D9D88 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED1594026D08300002D9D88 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		4ED1594126D08300002D9D88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED1594226D08300002D9D88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC336DEE2A9C206A3616B23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShcReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6859C98966BDCDF186CFC9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F3F30D2F8C2DEB748E6951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShcReader/Pods-ShcReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +531,28 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FDDC19B46556B9D58637DB8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShcReader-ShcReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -270,6 +570,17 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				4E72BF4826CC409A007CAE86 /* NativeEventHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED1593626D08300002D9D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED1593726D08300002D9D88 /* AppDelegate.m in Sources */,
+				4ED1593826D08300002D9D88 /* main.m in Sources */,
+				4ED1593926D08300002D9D88 /* NativeEventHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +597,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99573FB7CB27C2429826583E /* Pods-ShcReader-ShcReaderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -312,9 +625,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CA70838E6315CA3983C8A1 /* Pods-ShcReader-ShcReaderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
 				INFOPLIST_FILE = ShcReaderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,10 +650,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BBDD24935B4087F251F0F6 /* Pods-ShcReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShcReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,10 +677,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B39C3EF3EF8B4CEFCD3E70 /* Pods-ShcReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
 				INFOPLIST_FILE = ShcReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +695,58 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ShcReader;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		4ED1594426D08300002D9D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BBDD24935B4087F251F0F6 /* Pods-ShcReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ShcReader copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		4ED1594526D08300002D9D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B39C3EF3EF8B4CEFCD3E70 /* Pods-ShcReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKJQKNZJTK;
+				INFOPLIST_FILE = "ShcReader copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -414,6 +785,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +850,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -519,6 +892,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED1594326D08300002D9D88 /* Build configuration list for PBXNativeTarget "ShcReader Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED1594426D08300002D9D88 /* Debug */,
+				4ED1594526D08300002D9D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

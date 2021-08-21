@@ -36,11 +36,10 @@ static void InitializeFlipper(UIApplication *application) {
                                                    moduleName:@"ShcReader"
                                             initialProperties:nil];
 
-  if (@available(iOS 13.0, *)) {
-      rootView.backgroundColor = [UIColor systemBackgroundColor];
-  } else {
-      rootView.backgroundColor = [UIColor whiteColor];
-  }
+  rootView.backgroundColor = [UIColor colorWithRed:213.0f/255.0f
+                                             green:219.0f/255.0f
+                                              blue:219.0f/255.0f
+                                             alpha:1.0f];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
