@@ -22,6 +22,7 @@ Simple application permettant aux québécois de lire leur preuve vaccinale émi
 * Ce projet n'est pas affilié au Gouvernement du Québec.
 * Cette application est destinée à des fins éducatives et ne fournit aucune garantie, y compris concernant la validation des données.
 * Cette application ne doit pas être utilisée ni modifiée pour recueillir des données personnelles ou pour tracer le propriétaire des données sans son consentement.
+* Je me détache de toute responsabilité lié à un usage ou à une mofification illégal de cette application fait par une tierce personne.
 
 ---
 
