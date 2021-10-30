@@ -6,7 +6,7 @@ export class ShcPayload {
     name: string;
     firstName: string;
     birthDate: string;
-    gender: string;
+    gender: string | undefined;
     firstDose: VaccineInfo;
     secondDose: VaccineInfo | undefined;
 
@@ -19,10 +19,10 @@ export class ShcPayload {
 
         const entry = rawData.vc.credentialSubject.fhirBundle.entry;
 
-        this.name = entry[0].resource.name[0].family.join(' ');
-        this.firstName = entry[0].resource.name[0].given.join(' ');
+        this.name = Array.isArray(entry[0].resource.name[0].family) ? entry[0].resource.name[0].family.join(' ') : entry[0].resource.name[0].family;
+        this.firstName = Array.isArray(entry[0].resource.name[0].given) ? entry[0].resource.name[0].given.join(' ') : entry[0].resource.name[0].given;
         this.birthDate = entry[0].resource.birthDate;
-        this.gender = entry[0].resource.gender === 'Male' ? 'Homme' : 'Femme';
+        this.gender = entry[0].resource.gender === 'Male' ? 'Homme' : entry[0].resource.gender === 'Female' ? 'Femme' : undefined;
 
         this.firstDose = new VaccineInfo(entry[1]);
 
