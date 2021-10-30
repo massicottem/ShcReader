@@ -103,8 +103,13 @@ class Home extends Component<Props, State> {
                                 <Text style={styles.text}>{this.state.shc?.payload.name}, {this.state.shc?.payload.firstName}</Text>
                                 <Text style={styles.label}>Date de naissance</Text>
                                 <Text style={styles.text}>{this.state.shc?.payload.birthDate}</Text>
-                                <Text style={styles.label}>Genre</Text>
-                                <Text style={styles.text}>{this.state.shc?.payload.gender}</Text>
+                                {this.state.shc?.payload.gender ?
+                                    <View>
+                                        <Text style={styles.label}>Genre</Text>
+                                        <Text style={styles.text}>{this.state.shc?.payload.gender}</Text>
+                                    </View>
+                                    : null
+                                }
                             </View>
                             <View style={styles.validityInfo}>
                                 {this.state.shc?.trustable ? (this.state.shc?.payload.secondDose ? authenticPassport : onlyOneDose) : invalidPassport}
